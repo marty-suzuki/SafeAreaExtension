@@ -1,0 +1,16 @@
+PODS:
+  - SafeAreaExtension (0.1.0)
+
+DEPENDENCIES:
+  - SafeAreaExtension (from `../`)
+
+EXTERNAL SOURCES:
+  SafeAreaExtension:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SafeAreaExtension: bcf6d6fb7e720e57c4ae4cb915c09d8bdceb81d6
+
+PODFILE CHECKSUM: b18499af8dd852afa8fbf22b2e75bfa1b4979fdd
+
+COCOAPODS: 1.3.0

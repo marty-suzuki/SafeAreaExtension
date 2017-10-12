@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SafeAreaExtension'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SafeAreaExtension.'
+  s.summary          = 'You can handle safeAreaInsets changes of every UIView.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,20 +17,20 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+#   s.description      = <<-DESC
+# TODO: Add long description of the pod here.
+#                         DESC
 
   s.homepage         = 'https://github.com/marty-suzuki/SafeAreaExtension'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'marty-suzuki' => 's1180183@gmail.com' }
   s.source           = { :git => 'https://github.com/marty-suzuki/SafeAreaExtension.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/marty_suzuki'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
 
-  s.source_files = 'SafeAreaExtension/Classes/**/*'
+  s.source_files = 'SafeAreaExtension/**/*'
   
   # s.resource_bundles = {
   #   'SafeAreaExtension' => ['SafeAreaExtension/Assets/*.png']
