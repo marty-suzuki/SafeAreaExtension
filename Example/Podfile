@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SafeAreaExtension_Tests' do
+  pod 'SafeAreaExtension', :path => '../'
+  
+  
+end
